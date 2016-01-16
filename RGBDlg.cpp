@@ -91,9 +91,6 @@ BOOL CRGBDlg::OnInitDialog()
 	SetWindowRgn(trgn,TRUE);
 	return TRUE;  // return TRUE  unless you set the focus to a control
 }
-
-// The system calls this to obtain the cursor to display while the user drags
-//  the minimized window.
 HCURSOR CRGBDlg::OnQueryDragIcon()
 {
 	return (HCURSOR) m_hIcon;
